@@ -1,0 +1,19 @@
+h3 {
+    background-color : #8ed0f3;
+    height: auto;
+    width: auto;
+    font-family:'Times New Roman', Times, serif;
+    }
+    .image-container {
+    display: flex;
+    }
+    
+    
+    .image-container img {
+    width: 100%; /* Распределение ширины пополам, чтобы они были одинакового размера */
+    max-width: 100%; /* Ограничение максимальной ширины до размера изображения */
+    height: auto; /* Автоматическая высота, чтобы сохранить пропорции изображения */
+    
+    
+    }
+    

@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#8ed0f3 ;
+    }
+    
+    
+    header {
+    background-color: #ecf2f4;
+    color: rgb(13, 7, 7);
+    padding: 10px;
+    text-align: center;
+    }
+    
+    
+    nav {
+    background-color: #8ed0f3;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    
+    nav ul li {
+    color: aliceblue;
+    display: inline;
+    margin-right: 20px;
+    }
+    
+    
+    section {
+    padding: 20px;
+    }
+    
+    
+    footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Цвет фона под фоновой картинкой */
+    }
+    
+    
+    .background-image {
+    background-image: url('img/ximki.jpg'); /* Путь к фоновой картинке */
+    background-size: cover; /* Растягивание фоновой картинки на всю площадь */
+    background-position: center; /* Позиционирование картинки по центру */
+    background-repeat: no-repeat; /* Запрет повторения картинки */
+    opacity: 1; /* Настройте значение прозрачности по вашему желанию */
+    height: 100vh; /* Высота элемента на 100% высоты окна браузера */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Выравнивание по левому краю */
+    padding-left: 20px;
+    }
+    
+    
+    .background-image h1 {
+    font-size: 36px;
+    color: white; /* Цвет текста */
+    }
+    
+    
+    #services {
+    padding: 20px; /* Добавление отступов для лучшего визуального разделения */
+    background-color: rgba(255, 255, 255, 0.8); /* Подложка для сделать текст более ярким */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень для элемента */
+    }
+    
+    
+    #services h2 {
+    color: #333; /* Цвет текста */
+    margin-bottom: 10px;
+    }
+    
+    
+    #services ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    
+    #services li {
+    margin-bottom: 10px;
+    }
+    
+    
+    #services a {
+    color: #007bff; /* Яркий цвет для ссылок */
+    text-decoration: none;
+    font-weight: bold; /* Жирный шрифт для ссылок */
+    }
+    
+    
+    #services a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+    }
+    
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    display:flex; /* Добавьте этот стиль для выравнивания в одну строку */
+    justify-content: center;
+    }
+    
+    
+    nav h3 {
+    margin: 0;
+    padding: 10px 20px; /* Добавьте отступы для элементов списка */
+    }
+    
+    
+    nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    }
+    
+    
+    nav a:hover {
+    color: #007bff; /* Измените цвет при наведении */
+    }
+    
+    
+    
